@@ -1,94 +1,136 @@
-baseURL: 'https://uniix.io'
-title: LADDER
-theme: hugo-theme-ladder
-license: MIT
-licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
-description: 'My blog'
-homepage: 'https://uniix.io'
-defaultContentLanguage: 'zh'
-googleAnalytics: G-4WXJ5TEK2S
-paginate: 10
-menu:
-  main:
-    - name: Blog
-      url: /blog
-      weight: 1
-    - name: Tags
-      url: /tags
-      weight: 2
-    - name: Archive
-      url: /archives
-      weight: 3
+baseURL: "https://examplesite.com/"
+title: Loner1024's Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
-  brand: HOME
-  avatarURL: /images/avatar.png
-  author: Hugo Ladder
-  authorDescription: A clean, fast hugo theme focused on Reading
-  info: Ladder is a clean, simple but beautiful theme with awesome features
-  favicon: /images/avatar.png
-  options:
-    showDarkMode: true
-    enableImgZooming: true
-    enableMultiLang: true
-  darkModeTheme: data-dark-mode
-  #darkModeTheme: icy-dark-mode
-  comments:
-    giscus:
-      enable: false
-      repo: guangzhengli/hugo-ladder-exampleSite
-      repo_id: R_kgDOHyVOjg
-      category: Announcements
-      category_id: DIC_kwDOHyVOjs4CQsH7
-      mapping: pathname
-      position: top
-      lang: en # pick a language from https://github.com/giscus/giscus/tree/main/locales
-    utteranc:
-      enable: false
-      repo: guangzhengli/blog-comments
-      issueTerm: pathname
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "My Blog"
+  keywords: [Blog, uniix]
+  author: Loner1024
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/Loner1024"
+    - name: github
+      url: "https://github.com/loner1024"
+
   analytics:
     google:
-      SiteVerificationTag: xxx
-    umami:
-      enable: false
-      website_id: 2320eaa6-a90b-471c-b6ca-e79dadde8c4c
-      url: https://umami-ochre-nu.vercel.app/hugo-ladder.js
-  guestbook:
-    title: Guestbook
-    description: Leave a comment below. It could be anything –- question, appreciation, information, or even humor.
-  social:
-    - name: GitHub
-      pre: >-
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-      url: 'https://github.com/loner1024'
-languages:
-  en:
-    languageName: EN
-  zh:
-    languageName: 中
-    author: Ladder 主题
-    authorDescription: 一个美观，快速并且专注于阅读的主题
-    info: 帮助开发者构建一个免费并且漂亮的博客网站，记录自己的思考并且提高自己的影响力
-    guestbook:
-      title: 留言板
-      description: 您的评论，会让该网站更精彩！
-    menu:
-      main:
-        - name: 文章
-          url: /blog
-          weight: 1
-        - name: 分类
-          url: /tags
-          weight: 2
-        - name: 历史文章
-          url: /archives
-          weight: 3
-        - name: 留言板
-          url: /guestbook
-          weight: 4
-        - name: 网站统计
-          url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
-          weight: 5
-taxonomies:
-  series: series
-  tag: tags
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
