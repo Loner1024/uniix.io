@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://examplesite.com/</loc>
+    <loc>https://uniix.io/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/markdown/</loc>
+    <loc>https://uniix.io/tags/markdown/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/1/</loc>
+    <loc>https://uniix.io/1/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/</loc>
+    <loc>https://uniix.io/tags/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/text/</loc>
+    <loc>https://uniix.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>https://uniix.io/categories/</loc>
   </url><url>
-    <loc>https://examplesite.com/search/</loc>
+    <loc>https://uniix.io/search/</loc>
   </url>
 </urlset>
