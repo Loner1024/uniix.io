@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>markdown on LADDER</title><link>https://uniix.io/tags/markdown/</link><description>Recent content in markdown on LADDER</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 25 Jul 2019 16:43:00 +0000</lastBuildDate><atom:link href="https://uniix.io/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlight Style test</title><link>https://uniix.io/blog/code-highlight/</link><pubDate>Thu, 25 Jul 2019 16:43:00 +0000</pubDate><guid>https://uniix.io/blog/code-highlight/</guid><description>&lt;p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of &lt;a href="https://highlightjs.org">https://highlightjs.org&lt;/a>&lt;/p></description></item><item><title>Code Highlight Style test</title><link>https://uniix.io/blog/zh/code-highlight/</link><pubDate>Thu, 25 Jul 2019 16:43:00 +0000</pubDate><guid>https://uniix.io/blog/zh/code-highlight/</guid><description>&lt;p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of &lt;a href="https://highlightjs.org">https://highlightjs.org&lt;/a>&lt;/p></description></item><item><title>Elements</title><link>https://uniix.io/blog/elements/</link><pubDate>Tue, 24 Dec 2013 23:29:08 +0000</pubDate><guid>https://uniix.io/blog/elements/</guid><description>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don&amp;rsquo;t forget to redefine the style by yourself.
-Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Paragraph Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl.</description></item><item><title>Elements</title><link>https://uniix.io/blog/zh/elements/</link><pubDate>Tue, 24 Dec 2013 23:29:08 +0000</pubDate><guid>https://uniix.io/blog/zh/elements/</guid><description>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don&amp;rsquo;t forget to redefine the style by yourself.
-Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Paragraph Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>markdown on Loner1024&#39;s Blog</title>
+    <link>https://examplesite.com/tags/markdown/</link>
+    <description>Recent content in markdown on Loner1024&#39;s Blog</description>
+    <image>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://examplesite.com/1/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/1/</guid>
+      <description>Lorem Ipsum Dolor Si Amet</description>
+    </item>
+    
+  </channel>
+</rss>
