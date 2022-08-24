@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: 'https://uniix.io/'
 title: Loner1024's Blog
 paginate: 5
 theme: PaperMod
@@ -17,12 +17,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
-  description: "My Blog"
+  description: 'My Blog'
   keywords: [Blog, uniix]
   author: Loner1024
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  images: ['<link or path of image for opengraph, twitter-cards>']
+  DateFormat: 'January 2, 2006'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -45,14 +45,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: '<link / abs url>'
+    favicon16x16: '<link / abs url>'
+    favicon32x32: '<link / abs url>'
+    apple_touch_icon: '<link / abs url>'
+    safari_pinned_tab: '<link / abs url>'
 
   label:
-    text: "Home"
+    text: 'Home'
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -60,8 +60,8 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    subtitle: 'This is subtitle'
+    imageUrl: '<img location>'
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -78,17 +78,17 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/Loner1024"
+      url: 'https://twitter.com/Loner1024'
     - name: github
-      url: "https://github.com/loner1024"
+      url: 'https://github.com/loner1024'
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: 'XYZabc'
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: 'XYZabc'
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: 'XYZabc'
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -96,8 +96,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: 'https://github.com/<path_to_repo>/content'
+    Text: 'Suggest Changes' # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -109,7 +109,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ['title', 'permalink', 'summary', 'content']
 menu:
   main:
     - identifier: categories
